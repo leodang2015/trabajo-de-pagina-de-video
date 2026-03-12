@@ -1,190 +1,209 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>Portafolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h2 class="logo">Omar Leonardo Dangond Rueda </h2>
+    <header>
 
-<nav>
-<a href="#">Inicio</a>
-<a href="#">¿Quién soy?</a>
-<a href="#">Proyectos</a>
-</nav>
-</header>
+        <table width="100%">
+            <tr>
 
+                <td>
+                    <h2>Omar Leonardo Dangond Rueda</h2>
+                </td>
 
-<section class="inicio">
+                <td align="right">
+                    <nav>
+                        <a href="#">Inicio</a>
+                        <a href="#">¿Quién soy?</a>
+                        <a href="#">Proyectos</a>
+                    </nav>
+                </td>
 
-<img src="/fotos/IMG_20240830_133854.jpg" class="perfilv">
+            </tr>
+        </table>
 
-<div class="texto">
-<h1>¿Quién soy?</h1>
-
-<p>
-    <p>Soy una persona muy amistosa por el motivo por ser criado por vendedores de ropa por su estilo de atender las personas con paciencia<br></p>
-
-</p>
-
-<button>Leer más</button>
-
-</div>
-
-</section>
+    </header>
 
 
-<section class="perfil">
+    <section class="inicio">
 
-<img src="fotos/IMG_20240830_070056.jpg" class="perfill">
+        <table width="100%">
+            <tr>
+
+                <td align="center">
+                    <img src="/fotos/IMG_20240830_133854.jpg" class="perfilv">
+                </td>
+
+                <td>
+
+                    <h1>¿Quién soy?</h1>
+
+                    <p>
+                        Soy una persona muy amistosa por el motivo de ser criado por vendedores de ropa por su estilo de
+                        atender las personas con paciencia
+                    </p>
+
+                    <button>Leer más</button>
+
+                </td>
+
+            </tr>
+        </table>
+
+    </section>
 
 
-<h4>- Omar Leonardo Dangond Rueda</h4>
-<p>
-Soy una persona que me gusta diseñar las paginas y satifacer las necesidades del cliente en el tema de software
-</p>
-</section>
+    <section class="perfil">
+
+        <img src="fotos/IMG_20240830_070056.jpg" class="perfill">
+
+        <h4>- Omar Leonardo Dangond Rueda</h4>
+
+        <p>
+            Soy una persona que me gusta diseñar las paginas y satisfacer las necesidades del cliente en el tema de
+            software
+        </p>
+
+    </section>
 
 
-<section class="proyectos">
+    <section class="proyectos">
 
-<h2>Proyectos</h2>
+        <h2>Proyectos</h2>
 
-<div class="card">
-<img src="/fotos/leo.png" class="imagenesp">
-<h3>Proyecto 1</h3>
-<p>En este proyecto se observa una hoja de vida</p>
-<button>Ver proyecto</button>
-</div>
+        <table align="center">
 
-<div class="card">
-<img src="/fotos/Captura de pantalla 2026-03-10 073727.png" class="imagenesp">
-<h3>Proyecto 2</h3>
-<p>En este proyecto realice una tarjeta de presentacion personal de mi</p>
-<button>Ver proyecto</button>
-</div>
+            <tr>
 
-<div class="card">
-<img src="/fotos/5eeea355389655.59822ff824b72.gif" class="imagenesp">
-<h3>Proyecto 3</h3>
-<p>No tengo mas proyectos pero el gato me parece divertido </p>
-<button>Ver proyecto</button>
-</div>
+                <td>
+                    <div class="card">
+                        <img src="/fotos/leo.png" class="imagenesp">
+                        <h3>Proyecto 1</h3>
+                        <p>En este proyecto se observa una hoja de vida</p>
+                        <button>Ver proyecto</button>
+                    </div>
+                </td>
 
-<div class="card">
-<img src="/fotos/mN5que.gif" class="imagenesp">
-<h3>Proyecto 4</h3>
-<p>Lo coloque porque de pequeño me gustaba construir.</p>
-<button>Ver proyecto</button>
-</div>
+                <td>
+                    <div class="card">
+                        <img src="/fotos/Captura de pantalla 2026-03-10 073727.png" class="imagenesp">
+                        <h3>Proyecto 2</h3>
+                        <p>En este proyecto realice una tarjeta de presentación personal</p>
+                        <button>Ver proyecto</button>
+                    </div>
+                </td>
 
-</section>
+                <td>
+                    <div class="card">
+                        <img src="/fotos/5eeea355389655.59822ff824b72.gif" class="imagenesp">
+                        <h3>Proyecto 3</h3>
+                        <p>No tengo más proyectos pero el gato me parece divertido</p>
+                        <button>Ver proyecto</button>
+                    </div>
+                </td>
 
+                <td>
+                    <div class="card">
+                        <img src="/fotos/mN5que.gif" class="imagenesp">
+                        <h3>Proyecto 4</h3>
+                        <p>Lo coloque porque de pequeño me gustaba construir.</p>
+                        <button>Ver proyecto</button>
+                    </div>
+                </td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+</body>
+
+</html>
 <style>
-body{
-margin:0;
-font-family:Arial;
-}
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
 
+    header {
+        background: #3b3f45;
+        color: red;
+        padding: 15px;
+    }
 
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
 
-header{
-background:#3b3f45;
-color:rgb(255, 35, 35);
-padding:15px;
-}
+    .inicio {
+        text-align: center;
+        padding: 60px;
+        background-image: url("/fotos/tropical.png");
+    }
 
-.logo{
-display:inline-block;
-margin:0;
-}
+    .perfil {
+        background-color: #54e26b;
+        color: rgb(116, 130, 255);
+        text-align: center;
+        padding: 60px;
+    }
 
-nav{
-float:right;
-}
+    .proyectos {
+        text-align: center;
+        padding: 50px;
+        background-image: url("/fotos/tropical.png");
+    }
 
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
+    .card {
+        width: 200px;
+        padding: 15px;
+    }
 
+    .card img {
+        width: 100%;
+    }
 
-.inicio{
-background-image: "/fotos/tropical.png";
-text-align:center;
-padding:60px;
-}
+    .perfill {
+        width: 25%;
+        height: 300px;
+    }
 
-.img1{
-width:200px;
-margin-bottom:20px;
-}
+    .perfilv {
+        width: 300px;
+        height: 300px;
+    }
 
-.texto h1{
-color:#ff4c1e;
-}
+    .imagenesp {
+        width: 300px;
+        height: 300px;
+    }
 
-button{
-background-color:#38ff1e;
-color:white;
-border:none;
-padding:10px 20px;
-margin-top:10px;
-}
+    button {
+        background-color: #38ff1e;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
 
-p{
-    color: black;
-}
-.perfil{
-background-color:#54e26b;
-color:rgb(116, 130, 255);
-text-align:center;
-padding:60px;
-}
-
-.perfil-img{
-width:150px;
-border-radius:100px;
-margin-bottom:20px;
-}
-
-
-.proyectos{
-text-align:center;
-padding:50px;
-background-image:"/fotos/tropical.png";
-}
-
-.card{
-width:200px;
-display:inline-block;
-margin:10px;
-padding:15px;
-vertical-align:top;
-background-image:"/fotos/tropical.png";
-}
-
-.card img{
-width:100%;
-}
-.imagenesp{
-    width: 50%;
-    height: 300px;
-}
-.perfill{
-    width: 25%;
-    height: 300px;
-}
-.perfilv{
-    width: 300px;
-    height: 300px;
-}
+    p,
+    h3,
+    h2,
+    h1 {
+        color: rgb(252, 252, 252);
+    }
 </style>
 
 </body>
+
 </html>
